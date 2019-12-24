@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Columns</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+
+        <!-- Extra small columns -->
+        <h1>Extra Small Columns don't Collapse</h1>
+        <div class="row mb-1 text-center">
+          <div class="col bg-light border rounded border-dark">.col (1)</div>
+          <div class="col bg-light border rounded border-dark">.col (2)</div>
+          <div class="col bg-light border rounded border-dark">.col (3)</div>
+          <div class="col bg-light border rounded border-dark">.col (4)</div>
+          <div class="col bg-light border rounded border-dark">.col (5)</div>
+          <div class="col bg-light border rounded border-dark">.col (6)</div>
+          <div class="col bg-light border rounded border-dark">.col (7)</div>
+          <div class="col bg-light border rounded border-dark">.col (8)</div>
+          <div class="col bg-light border rounded border-dark">.col (9)</div>
+          <div class="col bg-light border rounded border-dark">.col (10)</div>
+          <div class="col bg-light border rounded border-dark">.col (11)</div>
+          <div class="col bg-light border rounded border-dark">.col (12)</div>
+        </div>
+
+        <h1>Small Columns Collapse at 576px</h1>
+          <div class="row mb-1 text-center">
+            <div class="col-sm-1 bg-info border rounded border-light">col-sm (1)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">col-sm (2)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">col-sm (3)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">col-sm (4)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">col-sm (5)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (6)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (7)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (8)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (9)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (10)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (11)</div>
+            <div class="col-sm-1 bg-info border rounded border-light">.col-sm (12)</div>
+          </div>
+
+          <h1>Medium Columns Collapse at 768px</h1>
+          <div class="row mb-1 text-center">
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (1)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (2)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (3)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (4)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (5)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (6)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (7)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (8)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (9)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (10)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (11)</div>
+            <div class="col-md-1 bg-primary border rounded border-light">.col-md (12)</div>
+          </div>
+          
+          <h1>Large Columns Collapse at 992px</h1>
+          <div class="row mb-1 text-center">
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (1)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (2)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (3)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (4)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (5)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (6)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (7)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (8)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (9)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (10)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (11)</div>
+            <div class="col-lg-1 bg-success border round border-light">.col-lg (12)</div>
+          </div>
+          
+          <h1>Extra Large Columns Collapse at 1200px</h1>
+          <div class="row text-center">
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (1)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (2)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (3)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (4)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (5)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (6)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (7)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (8)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (9)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (10)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (11)</div>
+            <div class="col-xl-1 bg-dark text-light border round border-light">.col-xl (12)</div>
+          </div>
+
+      </div>
+      <!-- END OF CONTAINER -->
+    </section>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
